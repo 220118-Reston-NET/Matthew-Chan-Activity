@@ -34,8 +34,8 @@ do
     read num
     sum=0
 
-    #for (( i2 = 1; i2 <= num;i2++ ));
-    for i in $(seq 1 $num)
+    for (( i2 = 1; i2 <= num;i2++ ));
+    #for i in $(seq 1 $num)
     do
     echo "Enter the number $i2 : "
     read add
