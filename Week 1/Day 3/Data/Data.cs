@@ -3,41 +3,37 @@ namespace InventoryFunction
     public class Inventory{
         private int _totalCapacity;
         private int _currentCapacity = 0;
-        public Dictionary<string,int> _ownedAnimals = new Dictionary<string,int>();
+        private Dictionary<string,int> _ownedAnimals = new Dictionary<string,int>();
 
         public Inventory(int capacity){
             _totalCapacity = capacity;
             Console.WriteLine("new zoo created");
         }
 
-        public String[] Animals{ 
-            get{
-                String[] listOfAnimals = new String[_currentCapacity];
-                int count = 0;
-                foreach (string key in _ownedAnimals.Keys)
-                {  
-                    listOfAnimals[count++] = (key);  
-                }  
-                return listOfAnimals; 
-            }
-
-            set{
+        public void SetAnimals(String animal){
                 int currentCount;
-                _ownedAnimals.TryGetValue(value[0], out currentCount); 
-                _ownedAnimals[value[0]] = currentCount + 1;
+                _ownedAnimals.TryGetValue(animal, out currentCount); 
+                _ownedAnimals[animal] = currentCount + 1;
                 _currentCapacity++;
-            } 
-            
-            
         }
+
+        public String[] GetAnimals(){
+            String[] listOfAnimals = new String[_currentCapacity];
+            int count = 0;
+            foreach (string key in _ownedAnimals.Keys){  
+                listOfAnimals[count++] = (key);  
+            }  
+            return listOfAnimals;
+        }
+
         public int TotalCapacity { get; set; }
 
-        public bool ifFull(){
+        public bool IfFull(){
             if(_currentCapacity == _totalCapacity){return true;}
             else{ return false;}
         }
 
-        public void removeAnimal(String animal){
+        public void RemoveAnimal(String animal){
             if(_ownedAnimals.ContainsKey(animal)){
                 _ownedAnimals.Remove(animal);
                 Console.WriteLine(animal + " is removed.");

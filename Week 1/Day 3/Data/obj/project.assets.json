@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthew Chan\\Desktop\\Revature\\Week 1\\Day 2\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Matthew Chan\\Desktop\\Revature\\Week 1\\Day 3\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Matthew Chan\\Desktop\\Revature\\Week 1\\Day 2\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\Matthew Chan\\Desktop\\Revature\\Week 1\\Day 3\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Matthew Chan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matthew Chan\\Desktop\\Revature\\Week 1\\Day 2\\Data\\obj\\",
+      "outputPath": "C:\\Users\\Matthew Chan\\Desktop\\Revature\\Week 1\\Day 3\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matthew Chan\\AppData\\Roaming\\NuGet\\NuGet.Config"

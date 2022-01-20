@@ -17,7 +17,7 @@ while(repeat == true){
 
     String userInput = Console.ReadLine();
     if(userInput == "1"){
-        foreach (String item in oakZoo.Animals){
+        foreach (String item in oakZoo.GetAnimals()){
                 Console.WriteLine(item);
         } 
 
@@ -25,15 +25,14 @@ while(repeat == true){
     else if(userInput == "2"){
         Console.WriteLine("How many numbers would you like to add?");
         int num = Convert.ToInt32(Console.ReadLine());
-        int sum = 0;
         for(int i= 1; i <= num; i++){
             Console.WriteLine("Enter Animal " + i + ": ");
-            oakZoo.Animals = new []{ Console.ReadLine() };
+            oakZoo.SetAnimals(Console.ReadLine());
         }
     }
     else if(userInput == "3"){
         Console.WriteLine("Which animal would you like to remove?");
-        oakZoo.removeAnimal(Console.ReadLine());
+        oakZoo.RemoveAnimal(Console.ReadLine());
 
     }
     
