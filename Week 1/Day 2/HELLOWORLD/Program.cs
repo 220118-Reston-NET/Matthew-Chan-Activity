@@ -1,17 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CarFunction;
 
+
+//using CarFunction;
+//using CollectionFunction;
+using ConversionFunction;
+
+/*
 Console.WriteLine("Hello, World!");
 
 //NameOfClass NameofVariable = new NameofClass();
 Car car1 = new Car();
 
 Console.WriteLine(car1.Color);
-car1.Color = Red
+car1.Color = "Red";
 Console.WriteLine(car1.Color);
 car1.Fuel = 10;
 Console.WriteLine(car1.Fuel);
-car1.start();
+car1.Start();
 car1.Start(100);
 
 //Another way of initializing objects out of a class but preconfiguring our states already
@@ -19,22 +24,24 @@ Car car2 = new Car()
 {
     Color = "Yellow",
     Fuel = 1000,
-    Owner = "John";
+    Owner = "John"
 };
 
 Console.WriteLine(car2.Color);
-Console.WriteLine(car2.TotalDistance);
+Console.WriteLine(car2.TotalDistance); /////////////asjdklf;jskldfjk
 
-// Console.WriteLine(car2.Color);
+Console.WriteLine(car2.Color);
 
-repeat = True;
-while(repeat == True)
-    Console.WriteLine("Welcome to programming!");
-    Console.WriteLine("Please tell me your name");
-    //Console.ReadlLine
-    String userInput = Console.ReadLine();
-    Console.WriteLine($"Hello {userInput}, what do you want to do today?");
-    Console.WriteLine("[1] 0 Add two numbers");
+
+bool repeat = true;
+
+Console.WriteLine("Welcome to programming!");
+Console.WriteLine("Please tell me your name");
+String nameInput = Console.ReadLine();
+while(repeat == true){
+
+    Console.WriteLine($"Hello {nameInput}, what do you want to do today?");
+    Console.WriteLine("[1] - Add two numbers");
     Console.WriteLine("[2] - Exit");
 
     string userInput = Console.ReadLine();
@@ -46,10 +53,20 @@ while(repeat == True)
         int num1 = Convert.ToInt32(Console.ReadLine());
         int num2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WritLine($"The sum is: {num2 + num1}");
+        Console.WriteLine($"The sum is: {num2 + num1}");
         Console.WriteLine("Please press Enter to continue");
-        COnsole.ReadLine();
+        Console.ReadLine();
     }
     else if(userInput == "2"){
         repeat = false;
     }
+}
+*/
+
+/*
+Collection collect = new Collection();
+collect.CollectionMain();
+*/
+
+Conversion convert = new Conversion();
+convert.ConversionMain();

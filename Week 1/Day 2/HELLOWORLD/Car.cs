@@ -8,10 +8,10 @@ namespace CarFunction
         //Field
         //It is used to store information or define the current state of the object when yiou first make it
         //private means that only the class itslef can use that field
-        private string _color = blue;
+        private string _color = "Blue";
         private string _owner;
         private int _fuel;
-        private int _gallonPerMile;
+        private int _gallonPerMile = 2;
         
         //Property
         //THey are in PascalCase
@@ -20,7 +20,7 @@ namespace CarFunction
             get { return "The color is: " + _color; }
         }
 
-        public strong _owner{
+        public string Owner{
             get {return _owner;}
             set{ _owner = value;}
         }
@@ -48,7 +48,7 @@ namespace CarFunction
 
         //you can add parapeters to a method to pass in data to be used inside method
         // make sure the parameter has a datatype and then a name
-        public void start(int p_fuel){
+        public void Start(int p_fuel){
             Fuel = p_fuel;
             Console.WriteLine("THe car is starting right now!");
             Console.WriteLine($"Current fuel: {Fuel}");

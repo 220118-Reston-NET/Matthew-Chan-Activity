@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//dotnet new console -o "NameOfFile"
+// See https://aka.ms/new-console-template for more information
 
 bool repeat = true;
 
