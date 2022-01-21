@@ -43,6 +43,10 @@ namespace InventoryFunction
                 Console.WriteLine(animal + " does not exist in this zoo");
             }
         }
+
+        public String ConvertToJSON(){
+            return JsonConvert.SerializeObject( _ownedAnimals );
+        }
     }
 
 
