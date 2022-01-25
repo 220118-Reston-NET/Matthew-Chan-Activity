@@ -1,3 +1,5 @@
+using System.Text.Json;
+
 namespace InventoryFunction
 {
     public class Inventory{

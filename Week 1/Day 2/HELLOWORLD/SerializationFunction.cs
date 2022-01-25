@@ -46,4 +46,23 @@ namespace SerializationFunction{
          Console.WriteLine(car2[0].Fuel);
          Console.WriteLine(car2[0].Owner);
     }
+
+    catch (FileNotFoundException)
+    {
+        COnsole.WritelLine("Flien not found. Creating a new file for you!");
+        //Creates a file if a file was not found
+        List<Car> 
+
+        jsonString3 = File.ReadAllTesxt(_filepath);
+
+        //JosonSerilaizer
+        List<car> car2 = JsonSerializer.Deserialize<List<Car>>(jsonString3);
+
+        Console.WriteLIne(car2)
+    }
+    catch (System.Exception)
+    {
+        
+        throw;
+    }
 }

@@ -13,7 +13,8 @@ while(repeat == true){
     Console.WriteLine("Enter 1 list out your animals");
     Console.WriteLine("Enter 2 if you want to add a unique animal");
     Console.WriteLine("Enter 3 if you want to remove animals");
-    Console.WriteLine("Enter 4 if you want to exit");
+    Console.WriteLine("Enter 4 to store stuff in a JSON file");
+    Console.WriteLine("Enter 5 if you want to exit");
 
     String userInput = Console.ReadLine();
     if(userInput == "1"){
@@ -37,6 +38,9 @@ while(repeat == true){
     }
     
     else if(userInput == "4"){
+        
+    }
+    else if(userInput == "5"){
         repeat = false;
     }
     else{
