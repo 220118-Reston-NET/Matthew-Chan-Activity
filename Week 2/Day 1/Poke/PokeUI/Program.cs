@@ -13,16 +13,27 @@ while(repeat){
     string ans = menu.UserChoice();
 
     switch (ans){
+        case  "SearchPokemon":
+            Log.Information("Displaying SearchPokemon Menu to user");
+            menu = new SearchPokemonMenu(new PokemonBL(new Repository()));
+            break;
         case "AddPokemon":
-            menu = new AddPokeMenu();
+            Log.Information("Displaying AddPokemon Menu to user");
+            menu = new AddPokeMenu(new PokemonBL(new Repository()));
             break;
         case "MainMenu":
-            menu = newMainMenu();
+            Log.Information("Displaying MainMenu to user");
+            menu = new MainMenu();
             break;
         case "Exit":
+            Log.Information("Exiting application");
+            Log.CloseAndFlush(); //To close our logger resource
             repeat = false;
+            break;
         default:
             Console.WriteLine("Page does not exist!");
+            Console.WriteLine("Please press Enter to continue");
+            Console.ReadLine();
             break;
     }
 }

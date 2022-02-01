@@ -35,5 +35,9 @@ public class Pokemon
         };
     }
 
+    public override string ToString(){
+        return $"Name: {Name}\nLevel: {Level}\nAttack: {Attack}\nDefense: {Defense}\nHealth: {Health}";
+    }
+
 
 }
