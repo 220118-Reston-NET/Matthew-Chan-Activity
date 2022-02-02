@@ -38,7 +38,7 @@ public class UnitTest1
         public void PPShouldFailSetInvalidData(int p_invalidPP)
         {
             //Arrange
-            Moves abi = new Moves();
+            Moves mov = new Moves();
 
             //Act & Assert
             Assert.Throws<System.Exception>(

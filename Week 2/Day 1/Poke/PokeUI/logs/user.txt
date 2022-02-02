@@ -1,0 +1,70 @@
+2022-02-01 20:27:59.406 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:28:15.078 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:28:18.181 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:28:20.053 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:28:21.645 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:28:22.767 -08:00 [INF] Adding pokemon 
+Name: Treeko
+Level: 1
+Attack: 55
+Defense: 55
+Health: 55
+2022-02-01 20:28:22.879 -08:00 [WRN] failed to add pokemon due to reaching total capacity
+2022-02-01 20:28:26.358 -08:00 [INF] Displaying MainMenu to user
+2022-02-01 20:28:30.734 -08:00 [INF] Exiting application
+2022-02-01 20:30:29.265 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:30:47.948 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:30:54.796 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:30:56.315 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:30:57.260 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:31:05.038 -08:00 [INF] Adding pokemon 
+Name: Treeko
+Level: 1
+Attack: 55
+Defense: 55
+Health: 55
+2022-02-01 20:31:05.070 -08:00 [WRN] failed to add pokemon due to reaching total capacity
+2022-02-01 20:33:06.720 -08:00 [INF] Displaying MainMenu to user
+2022-02-01 20:33:08.452 -08:00 [INF] Exiting application
+2022-02-01 20:33:19.417 -08:00 [INF] Exiting application
+2022-02-01 20:33:35.173 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:33:40.267 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:33:41.891 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:33:42.939 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:33:43.539 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:33:44.515 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:33:45.124 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:33:46.229 -08:00 [INF] Adding pokemon 
+Name: Treeko
+Level: 1
+Attack: 55
+Defense: 55
+Health: 55
+2022-02-01 20:33:46.262 -08:00 [WRN] failed to add pokemon due to reaching total capacity
+2022-02-01 20:36:47.398 -08:00 [INF] Displaying MainMenu to user
+2022-02-01 20:36:49.186 -08:00 [INF] Exiting application
+2022-02-01 20:36:58.954 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:37:03.354 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:37:05.354 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:37:06.564 -08:00 [INF] Adding pokemon 
+Name: Treeko
+Level: 1
+Attack: 55
+Defense: 55
+Health: 55
+2022-02-01 20:37:06.929 -08:00 [WRN] failed to add pokemon due to reaching total capacity
+2022-02-01 20:37:19.939 -08:00 [INF] Displaying MainMenu to user
+2022-02-01 20:37:21.753 -08:00 [INF] Exiting application
+2022-02-01 20:38:25.597 -08:00 [INF] Displaying MainMenu to user
+2022-02-01 20:39:31.401 -08:00 [INF] Exiting application
+2022-02-01 20:39:47.326 -08:00 [INF] Displaying SearchPokemon Menu to user
+2022-02-01 20:41:12.868 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:41:21.817 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:41:35.099 -08:00 [INF] Displaying AddPokemon Menu to user
+2022-02-01 20:41:39.146 -08:00 [INF] Adding pokemon 
+Name: Treeko
+Level: 12
+Attack: 55
+Defense: 55
+Health: 55
+2022-02-01 20:41:39.236 -08:00 [WRN] failed to add pokemon due to reaching total capacity

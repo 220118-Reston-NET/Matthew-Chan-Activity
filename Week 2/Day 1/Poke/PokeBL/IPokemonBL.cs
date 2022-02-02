@@ -1,4 +1,5 @@
-﻿namespace PokeBL;
+﻿using PokeModel;
+
 namespace PokeBL
 {
     /// <summary>
